@@ -9,7 +9,8 @@
   color: #555555;
 }
 
-.edit-task-title, .edit-task-detail {
+.edit-task-title,
+.edit-task-detail {
   width: 300px;
   margin-bottom: 25px;
 }
@@ -24,7 +25,7 @@
 }
 
 .edit-task-button {
-  background-color: #242F9B;
+  background-color: #242f9b;
   color: #ffffff;
   width: 80px;
   height: 40px;
@@ -33,4 +34,22 @@
 
 .error-message {
   color: #ff3333;
+}
+
+@media screen and (max-width:840px){
+  
+}
+
+@media screen and (max-width:480px){
+  .edit-task h2{
+    font-size:large;
+  }
+  .delete-task-button {
+    width: 50px;
+    height: 25px;
+  }
+  .edit-task-button {
+    width: 50px;
+    height: 25px;
+  }
 }

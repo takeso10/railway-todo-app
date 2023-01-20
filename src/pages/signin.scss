@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+.signin {
+  width:500px;
+  margin: 30px auto;
+}
+.signin h2{
+  padding:0px 20px;
+}
+.signin-form {
+  margin: 25px 0;
+  padding:0px 20px;
+}
+
+.email-label,
+.password-label {
+  color: #555555;
+}
+.email-input,
+.password-input {
+  font-size: large;
+  height: 30px;
+  margin-bottom: 25px;
+  width:300px;
+}
+
+.signin-button {
+  background-color: #242f9b;
+  color: #ffffff;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.error-message {
+  color: #ff3333;
+}
+
+.new-account{
+  padding:0px 20px;
+}
+
+@media screen and (max-width:840px){
+  
+}
+
+@media screen and (max-width:480px){
+  .signin {
+    width:100%;
+    margin: 15px auto;
+  }
+  .signin h2{
+    padding:0px 20px;
+    font-size:large;
+  }
+  .signin-form {
+    margin: 25px 0;
+    padding:0px 20px;
+  }
+  
+  .email-label,
+  .password-label {
+    color: #555555;
+    font-size:small;
+  }
+  
+  .email-input,
+  .password-input {
+    width: 100%;
+    font-size: large;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .signin-button {
+    background-color: #242f9b;
+    color: #ffffff;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+  }
+  
+  .error-message {
+    color: #ff3333;
+  }
+  
+  .new-account{
+    padding:0px 20px;
+  }
+
+}

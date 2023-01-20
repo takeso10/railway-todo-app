@@ -15,9 +15,23 @@
 }
 
 .new-list-button {
-  background-color: #242F9B;
+  background-color: #242f9b;
   color: #ffffff;
   width: 80px;
   height: 40px;
   border-radius: 5px;
+}
+
+@media screen and (max-width:840px){
+  
+}
+
+@media screen and (max-width:480px){
+  .new-list h2{
+    font-size:large;
+  }
+  .new-list-button{
+    width:50px;
+    height:25px;
+  }
 }

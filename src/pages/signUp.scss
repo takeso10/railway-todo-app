@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+.signup {
+  width: 500px;
+  margin: 10px auto;
+}
+.signup-form {
+  margin: 25px 0;
+  color: #555555;
+}
+
+.email-input,
+.name-input,
+.password-input {
+  width: 100%;
+  font-size: large;
+  height: 30px;
+  margin-bottom: 25px;
+}
+
+.signup-button {
+  background-color: #242f9b;
+  color: #ffffff;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.error-message {
+  color: #ff3333;
+}
+
+@media screen and (max-width:840px){
+  
+}
+
+@media screen and (max-width:480px){
+  .signup{
+    width:100%;
+  }
+
+  .signup h2{
+    padding:0px 10px;;
+  }
+
+  .signup-form{
+    padding: 0px 10px;
+  }
+
+  .signup-form label{
+    font-size:small;
+  }
+
+  .email-input,
+  .name-input,
+  .password-input {
+    width: 100%;
+    font-size:medium;
+    height: 20px;
+    margin-bottom: 20px;
+  }
+
+  .signup-button {
+    width: 80px;
+    height: 30px;
+  }
+}

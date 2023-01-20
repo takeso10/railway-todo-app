@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #242f9b;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h1{
+  padding-left:10px;
+}
+
+.sign-out-button {
+  color: #ffffff;
+  margin: auto 25px auto auto;
+}
+
+@media screen and (max-width:840px){
+
+}
+
+@media screen and (max-width:480px){
+  .header{
+    font-size:small;
+  }
+  .sign-out-button{
+    font-size:small;
+  }
+}
